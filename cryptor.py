@@ -37,7 +37,8 @@ bar.finish()
 text=str.encode('utf8')
 crypto_text=rsa.encrypt(text,public)
 print("Keys was generated")
-print (crypto_text)
+Fore.RESET
+print ("Here is crypted text from both files:"+str(crypto_text))
 f.close()
 f=os.listdir()
 Fore.RESET
